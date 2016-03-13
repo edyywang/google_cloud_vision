@@ -68,7 +68,7 @@ class GoogleCloudVision
   def max_results
     case @type
     when 'LABEL_DETECTION'
-      3
+      5
     when 'SAFE_SEARCH_DETECTION'
       1
     else
